@@ -133,6 +133,10 @@ class ViewController: UIViewController {
         {
             return true
         }
+          if(char == "-")
+        {
+            return true
+        }
         return false
     }
     
